@@ -55,7 +55,7 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 📩", url=client.invitelink2),
+                InlineKeyboardButton(text="Join Now", url=client.invitelink2),
             ],
         ]
         try:
@@ -73,7 +73,7 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 📩", url=client.invitelink),
+                InlineKeyboardButton(text="Join Now", url=client.invitelink),
             ],
         ]
         try:
@@ -91,8 +91,8 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 📩ʟ", url=client.invitelink),
-                InlineKeyboardButton(text="𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 📩", url=client.invitelink2),
+                InlineKeyboardButton(text="Join Nowʟ", url=client.invitelink),
+                InlineKeyboardButton(text="join Now", url=client.invitelink2),
             ],
         ]
         try:
